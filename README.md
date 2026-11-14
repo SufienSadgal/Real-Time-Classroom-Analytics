@@ -17,8 +17,8 @@ Cross-references the spoken lecture against student answers to surface mastery r
 ![Diagnostic EDA Dashboard](assets/diagnostic.png)
 
 ## Key Features
-- **Live Speech-to-Text Capture:** Records up to 60 seconds of a lecture segment and transcribes it automatically.
-- **Human-in-the-Loop Comprehension Check:** Lets instructors review transcripts and launch targeted mid-lecture diagnostic quizzes.
+- **Live Speech-to-Text Capture:** Records the lecture and transcribes it automatically.
+- **Human-in-the-Loop Comprehension Check:** Lets instructors launch targeted mid-lecture diagnostic quizzes.
 - **LLM-Powered Reasoning & Triangulation:** Cross-references the spoken lecture transcript against individual student answers via OpenRouter to classify mastery levels and isolate root-cause misconceptions.
 - **Executive EDA Visual Analytics:** Built with Pandas and Altair to display normalized comprehension splits, Pareto misconception rankings, and a student-by-question pulse matrix.
 
