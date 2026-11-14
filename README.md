@@ -1,3 +1,7 @@
+## Hackathon Context
+This project was designed and built from scratch in **5 hours** during a hackathon organized by **Reply** and **BEST (Board of European Students of Technology)**. The challenge focused on leveraging **Agentic AI** and **LLM APIs** to solve a concrete pain point in **university education**—bridging the real-time feedback gap between professors and students during live lectures.
+
+
 # LecturePulse — Real-Time Pedagogical Diagnostics
 
 **LecturePulse** is a closed-loop AI teaching assistant built to bridge the gap between what an instructor explains live in class and what students actually understand.
