@@ -1,0 +1,29 @@
+{
+  "quizzes": [
+    {
+      "id": "Q1",
+      "question": "If a medical test has 99% sensitivity and comes back positive, why can the actual probability of having the disease still be very low?",
+      "student_answers": [
+        {"student": "Student 1", "answer": "Because if the disease is very rare in the population, false positives among healthy people outnumber true positives."},
+        {"student": "Student 2", "answer": "It cannot be low—if the test is 99% accurate, you have a 99% chance of having the disease."},
+        {"student": "Student 3", "answer": "It depends on the prior probability P(Disease): with a 0.1% prevalence, most positive results are false alarms."},
+        {"student": "Student 4", "answer": "Because P(Positive | Disease) is different from P(Disease | Positive); we need Bayes' theorem to invert the conditional probability."},
+        {"student": "Student 5", "answer": "Because the test fails 99% of the time when patients are healthy."},
+        {"student": "Student 6", "answer": "I'm not sure, I think it's because the two events are always statistically independent."},
+        {"student": "Student 7", "answer": "Because we are ignoring the denominator P(Positive), the total probability of testing positive across both sick and healthy people."},
+        {"student": "Student 8", "answer": "If the test is 99% sensitive, the margin of error is only 1%, so you are almost certainly sick."}
+      ]
+    },
+    {
+      "id": "Q2",
+      "question": "What is the practical difference between independent events and conditionally independent events?",
+      "student_answers": [
+        {"student": "Student 1", "answer": "Two events can be dependent overall, but become independent once we condition on a third common-cause variable."},
+        {"student": "Student 2", "answer": "They mean the exact same thing; we just call it conditional independence when using Bayes' rule."},
+        {"student": "Student 3", "answer": "Conditionally independent means that P(A and B) = 0."},
+        {"student": "Student 4", "answer": "For example, fever and cough are correlated, but once you know the patient has the flu, knowing they have a fever gives no extra info about the cough."},
+        {"student": "Student 5", "answer": "It means A does not affect B only when we have no prior information at all."}
+      ]
+    }
+  ]
+}

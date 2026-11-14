@@ -1,0 +1,10 @@
+.env
+.venv/
+venv/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+recordings/
+hackathon-edtech/
+*.zip
