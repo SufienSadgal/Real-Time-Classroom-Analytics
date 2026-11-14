@@ -2,13 +2,19 @@
 
 **LecturePulse** is a closed-loop AI teaching assistant built to bridge the gap between what an instructor explains live in class and what students actually understand.
 
-## Preview
+## Workflow & App Preview
 
-### 1. Diagnostic Dashboard & 1-Second EDA Insights
-![Classroom Pulse Diagnostics](assets/diagnostics.png)
+### 1. Live Lecture Capture & Transcription
+Records up to 60 seconds of a live explanation and converts speech into an editable transcript.
+![Live Recording and Transcription](assets/recording.png)
 
-### 2. Live Lecture Capture & Mid-Lecture Check
-![Lecture Capture and Quiz Flow](assets/overview.png)
+### 2. Mid-Lecture Comprehension Check
+Human-in-the-loop interface allowing the instructor to review collected student responses and select active diagnostic questions.
+![Mid-Lecture Quiz Evaluation](assets/quiz.png)
+
+### 3. Diagnostic Dashboard & 1-Second EDA Insights
+Cross-references the spoken lecture against student answers to surface mastery rates, root-cause misconceptions, and live classroom interventions.
+![Diagnostic EDA Dashboard](assets/diagnostic.png)
 
 ## Key Features
 - **Live Speech-to-Text Capture:** Records up to 60 seconds of a lecture segment and transcribes it automatically.
